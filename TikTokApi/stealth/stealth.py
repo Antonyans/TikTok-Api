@@ -127,16 +127,16 @@ class StealthConfig:
             yield SCRIPTS["iframe_content_window"]
         if self.media_codecs:
             yield SCRIPTS["media_codecs"]
-        if self.navigator_languages:
-            yield SCRIPTS["navigator_languages"]
+        # if self.navigator_languages:
+        #     yield SCRIPTS["navigator_languages"]
         if self.navigator_permissions:
             yield SCRIPTS["navigator_permissions"]
         if self.navigator_platform:
             yield SCRIPTS["navigator_platform"]
         if self.navigator_plugins:
             yield SCRIPTS["navigator_plugins"]
-        if self.navigator_user_agent:
-            yield SCRIPTS["navigator_user_agent"]
+        # if self.navigator_user_agent:
+        #     yield SCRIPTS["navigator_user_agent"]
         if self.navigator_vendor:
             yield SCRIPTS["navigator_vendor"]
         if self.webdriver:

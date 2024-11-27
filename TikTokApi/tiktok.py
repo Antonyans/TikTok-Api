@@ -181,8 +181,8 @@ class TikTokApi:
 
         x, y = 0, random.randint(0, 50)
         a, b = random.randint(1, 50), random.randint(100, 200)
-        page.mouse.move(x, y)
-        page.mouse.move(a, b)
+        await page.mouse.move(x, y)
+        await page.mouse.move(a, b)
         await page.goto(url)
 
         session = TikTokPlaywrightSession(
